@@ -127,7 +127,7 @@ function setup() {
 function draw() {
   background(255,255,255);
   Engine.update(engine);
-  image(bgImg,0,0,width, height);
+  //image(bgImg,0,0,width, height);
   textSize(width/13.6)
   if (touches.length > 0) {
     console.log("touch")
